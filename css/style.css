@@ -362,6 +362,67 @@ footer {
 	border-radius: .75em;
 }
 
+
+/* finalizar.html */
+
+.finalizar {
+	width: 75%;
+}
+
+.info {
+	display: flex;
+	justify-content: space-between;
+	border-bottom: 1px solid #6d676e44;
+	padding-bottom: 1em;
+}
+
+.cartao {
+	display: flex;
+	justify-content: space-between;
+	border-bottom: 1px solid #6d676e44;
+	padding-bottom: 1em;
+}
+
+.endereco {
+	display: flex;
+	justify-content: space-between;
+	border-bottom: 1px solid #6d676e44;
+	padding-bottom: 1em;
+}
+
+.endereco>.input-group1 {
+	display: flex;
+	flex-direction: column;
+}
+
+.finalizar .input-box {
+	display: flex;
+	flex-direction: column;
+}
+
+.finalizar input {
+	width: 17.5em;
+	background-color: transparent;
+	outline: none;
+	padding: .5em 0;
+	padding-left: 1em;
+	border: 1px solid #6d676e44;
+	border-radius: .5em;
+}
+
+.finalizar button {
+	margin-top: 1em;
+	font-size: 1.25em;
+	font-weight: 500;
+	background-color: var(--cian);
+	outline: none;
+	border: none;
+	cursor: pointer;
+	padding: .5em 0em;
+	width: 100%;
+	border-radius: .75em;
+}
+
 @media only screen and (max-width: 1450px) {
 	.container {
 		width: 100%;
