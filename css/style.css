@@ -171,8 +171,8 @@ main {
 }
 
 .carrossel-item-detalhes {
-	height: 20em;
-	width: 12em;
+	height: 40em;
+	width: 24em;
 	box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.200);
 	background-color: var(--af-white);
 	border-radius: 1em;
