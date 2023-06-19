@@ -26,6 +26,10 @@ body {
 	justify-content: center;
 }
 
+a{
+	text-decoration: none;
+}
+
 .container {
 	min-height: 100%;
 	width: 60%;
@@ -37,6 +41,10 @@ body {
 	gap: 1em;
 
 	background-color: var(--af-white);
+}
+
+.link-promocao{
+	cursor: pointer;
 }
 
 header {
@@ -145,6 +153,32 @@ main {
 	padding: 2em ;
 }
 
+.carrossel-item-camisa {
+	height: 20em;
+	width: 12em;
+	box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.200);
+	background-color: var(--af-white);
+	border-radius: 1em;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-evenly;
+	padding: 2em ;
+}
+
+.carrossel-item-detalhes {
+	height: 20em;
+	width: 12em;
+	box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.200);
+	background-color: var(--af-white);
+	border-radius: 1em;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-evenly;
+	padding: 2em ;
+}
+
 .liga-logo {
 	width: 150px;
 	height: 150px;
@@ -173,6 +207,14 @@ main {
 	font-size: 1em;
 	font-weight: 500;
 	cursor: pointer;
+}
+
+.promocao-titulo{
+	font-weight: 900;
+}
+
+.promocao{
+	text-decoration: line-through;
 }
 
 .liga-link>button:hover {
