@@ -26,11 +26,11 @@ body {
 	justify-content: center;
 }
 
-a{
+a {
 	text-decoration: none;
 }
 
-.h1-produtos{
+.h1-produtos {
 	margin-top: 20px;
 }
 
@@ -47,7 +47,7 @@ a{
 	background-color: var(--af-white);
 }
 
-.link-promocao{
+.link-promocao {
 	cursor: pointer;
 }
 
@@ -89,7 +89,7 @@ header {
 	text-decoration: none;
 }
 
-.menu-item>li{
+.menu-item>li {
 	position: relative;
 	font-weight: 500;
 	color: var(--af-white);
@@ -140,10 +140,10 @@ main {
 	border: 3px solid var(--black);
 }
 
-.carrossel::-webkit-scrollbar-track{
+.carrossel::-webkit-scrollbar-track {
 	background: var(--black);
 	border-radius: 1em;
-} 
+}
 
 .carrossel-item {
 	height: 17em;
@@ -155,7 +155,7 @@ main {
 	flex-direction: column;
 	align-items: center;
 	justify-content: space-evenly;
-	padding: 2em ;
+	padding: 2em;
 }
 
 .carrossel-item-camisa {
@@ -168,7 +168,7 @@ main {
 	flex-direction: column;
 	align-items: center;
 	justify-content: space-evenly;
-	padding: 2em ;
+	padding: 2em;
 }
 
 .carrossel-item-detalhes {
@@ -181,7 +181,7 @@ main {
 	flex-direction: column;
 	align-items: center;
 	justify-content: space-evenly;
-	padding: 2em ;
+	padding: 2em;
 }
 
 .liga-logo {
@@ -214,11 +214,11 @@ main {
 	cursor: pointer;
 }
 
-.promocao-titulo{
+.promocao-titulo {
 	font-weight: 900;
 }
 
-.promocao{
+.promocao {
 	text-decoration: line-through;
 }
 
@@ -268,7 +268,7 @@ footer {
 	margin-bottom: 1.5em;
 }
 
-.sobre> p {
+.sobre>p {
 	margin-bottom: .75em;
 }
 
@@ -325,13 +325,45 @@ footer {
 	text-decoration: line-through;
 }
 
-.carrinho-total {
+/* carrinho-aside */
+.carrinho-aside {
+	grid-area: a;
 	background-color: var(--gray);
 	border-radius: 1em;
+
+	display: flex;
+	padding: 1em 1em;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.carrinho-aside>.input-group>.input-box {
+	display: flex;
+	flex-direction: column;
+}
+
+.carrinho-aside>.input-group>.input-box>input {
+	background-color: transparent;
+	outline: none;
+	padding: .25em 0;
+	padding-left: 1em;
+	border: 1px solid #6d676e44;
+	border-radius: .5em;
+}
+
+.carrinho-aside>button {
+	background-color: var(--cian);
+	outline: none;
+	border: none;
+	cursor: pointer;
+	padding: .5em 0em;
+	width: 100%;
+	border-radius: .75em;
 }
 
 @media only screen and (max-width: 1450px) {
 	.container {
 		width: 100%;
 	}
-  }
+}
