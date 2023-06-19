@@ -189,6 +189,42 @@ footer {
 }
 
 
+/* contato.html */
+
+.contato {
+	display: flex;
+	flex-direction: column;
+	width: 75%;
+}
+
+.contato-title {
+	font-size: 2em;
+	font-weight: 600;
+	margin-bottom: 1.5em;
+}
+
+.contato>span>i {
+	font-size: 1.5em;
+	margin-right: .5em;
+}
+
+
+/* sobre.html */
+
+.sobre {
+	width: 75%;
+}
+
+.sobre-title {
+	font-size: 2em;
+	font-weight: 600;
+	margin-bottom: 1.5em;
+}
+
+.sobre> p {
+	margin-bottom: .75em;
+}
+
 @media only screen and (max-width: 1450px) {
 	.container {
 		width: 100%;
